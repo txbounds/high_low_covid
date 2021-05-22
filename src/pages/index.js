@@ -16,7 +16,7 @@ export default function Home({ data, countries }) {
 
 
 <div className={styles.headersInfo}>
-<p>Latest Update: {data.Date.split('T')[0]}</p>
+<p>Latest Update On: {data.Date.split('T')[0]}</p>
 <p>Countries Currently Less Than 5000 Confirmed Infections: {countries.length}</p>
 </div>   
 
